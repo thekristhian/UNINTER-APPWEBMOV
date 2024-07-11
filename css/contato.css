@@ -1,0 +1,19 @@
+/*Abaixo eu deixei os ajustes do formulário da tela "Contato", para deixar os campos minimamente proporcionais e um abaixo do outro*/
+
+main form {
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 25px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+
+main form input {
+    width: 300px;
+}
+
+main form textarea{
+    resize: none;
+    height: 300px;
+}

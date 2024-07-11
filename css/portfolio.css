@@ -1,0 +1,11 @@
+/* O objetivo do css abaixo é deixar o iframe com o vídeo do projeto que estou participando minimamente responsivo.
+Naturalmente, a depender da tela, estava havendo quebra da margem inferior do menu de navegação, então corrigindo o tamanho fixo do iFrame, parou o erro. */
+.resizable {
+    resize: both;
+    overflow: auto;
+    display: flex;
+}
+
+.resizable > * {
+    flex: 1;
+}
